@@ -56,7 +56,7 @@ AB11
 Text GLabel 42100 28100 2    60   Input ~ 0
 AB13
 Text GLabel 42475 28200 2    60   Input ~ 0
-R/~WB
+R~W~B
 Text GLabel 42100 28300 2    60   Input ~ 0
 AB12
 Text GLabel 42475 28400 2    60   Input ~ 0
@@ -3019,8 +3019,6 @@ Wire Wire Line
 Connection ~ 15075 3550
 Wire Wire Line
 	15075 3550 15350 3550
-Wire Wire Line
-	15500 3550 17225 3550
 Connection ~ 15500 3550
 $Comp
 L Star_Wars_Vector_PCB:LS08 E_5
@@ -4771,4 +4769,833 @@ Wire Notes Line
 	7550 32450 7550 23950
 Wire Notes Line
 	7550 23950 5125 23950
+$Comp
+L star_wars_arcade_main_pcb:68B09E C_2
+U 1 1 6749D04A
+P 19625 4225
+F 0 "C_2" H 19625 4250 50  0000 C CNN
+F 1 "68B09E" H 19625 4175 50  0000 C CNN
+F 2 "" H 19425 5125 50  0001 C CNN
+F 3 "" H 19425 5125 50  0001 C CNN
+	1    19625 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18975 2175 17225 2175
+Wire Wire Line
+	17225 2175 17225 2425
+Wire Wire Line
+	17425 3550 17425 2675
+Wire Wire Line
+	17425 2675 18975 2675
+Wire Wire Line
+	15500 3550 17425 3550
+NoConn ~ 20275 2625
+NoConn ~ 20275 2725
+$Comp
+L power:GND #PWR?
+U 1 1 67658683
+P 19775 7500
+F 0 "#PWR?" H 19775 7250 50  0001 C CNN
+F 1 "GND" H 19780 7327 50  0000 C CNN
+F 2 "" H 19775 7500 50  0001 C CNN
+F 3 "" H 19775 7500 50  0001 C CNN
+	1    19775 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6765A193
+P 19625 1575
+F 0 "#PWR?" H 19625 1425 50  0001 C CNN
+F 1 "+5V" H 19640 1748 50  0000 C CNN
+F 2 "" H 19625 1575 50  0001 C CNN
+F 3 "" H 19625 1575 50  0001 C CNN
+	1    19625 1575
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18975 4625
+NoConn ~ 18975 4725
+NoConn ~ 18975 4825
+Wire Wire Line
+	19775 7500 19775 7425
+Wire Wire Line
+	19775 7425 19475 7425
+Connection ~ 19775 7425
+Wire Wire Line
+	18975 5175 18975 8675
+Wire Wire Line
+	18975 8675 16025 8675
+Wire Wire Line
+	18975 4025 18700 4025
+Wire Wire Line
+	18700 4025 18700 7175
+Wire Wire Line
+	18700 7175 15800 7175
+Text GLabel 18875 3025 2    50   Input ~ 0
+~HALT
+Wire Wire Line
+	18975 3375 18875 3375
+Wire Wire Line
+	18875 3375 18875 3025
+$Comp
+L Star_Wars_Vector_PCB:TP TPHALT
+U 1 1 679DC1FA
+P 18675 3175
+F 0 "TPHALT" H 18500 3425 60  0000 L CNN
+F 1 "TP" H 18600 3225 60  0001 C CNN
+F 2 "" H 18600 3125 60  0001 C CNN
+F 3 "" H 18600 3125 60  0001 C CNN
+	1    18675 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18750 3375 18875 3375
+Connection ~ 18875 3375
+Wire Wire Line
+	18750 3375 18600 3375
+Connection ~ 18750 3375
+$Comp
+L Device:R_US R15
+U 1 1 67AC31F2
+P 18375 3375
+F 0 "R15" V 18170 3375 50  0000 C CNN
+F 1 "10k" V 18261 3375 50  0000 C CNN
+F 2 "" V 18415 3365 50  0001 C CNN
+F 3 "~" H 18375 3375 50  0001 C CNN
+	1    18375 3375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18525 3375 18600 3375
+Connection ~ 18600 3375
+$Comp
+L power:+5V #PWR?
+U 1 1 67B37281
+P 18225 3375
+F 0 "#PWR?" H 18225 3225 50  0001 C CNN
+F 1 "+5V" V 18240 3503 50  0000 L CNN
+F 2 "" H 18225 3375 50  0001 C CNN
+F 3 "" H 18225 3375 50  0001 C CNN
+	1    18225 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 67B3992A
+P 18375 3575
+F 0 "R10" V 18450 3525 50  0000 C CNN
+F 1 "1k" V 18450 3675 50  0000 C CNN
+F 2 "" V 18415 3565 50  0001 C CNN
+F 3 "~" H 18375 3575 50  0001 C CNN
+	1    18375 3575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18525 3575 18750 3575
+Wire Wire Line
+	18975 3475 18750 3475
+Wire Wire Line
+	18750 3475 18750 3575
+Connection ~ 18750 3575
+Wire Wire Line
+	18750 3575 18975 3575
+$Comp
+L power:+5V #PWR?
+U 1 1 67C9437F
+P 18225 3575
+F 0 "#PWR?" H 18225 3425 50  0001 C CNN
+F 1 "+5V" V 18240 3703 50  0000 L CNN
+F 2 "" H 18225 3575 50  0001 C CNN
+F 3 "" H 18225 3575 50  0001 C CNN
+	1    18225 3575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 67C97076
+P 19325 1625
+F 0 "C5" V 19073 1625 50  0000 C CNN
+F 1 ".1uf" V 19164 1625 50  0000 C CNN
+F 2 "" H 19363 1475 50  0001 C CNN
+F 3 "~" H 19325 1625 50  0001 C CNN
+	1    19325 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 67C97A67
+P 19175 1625
+F 0 "#PWR?" H 19175 1375 50  0001 C CNN
+F 1 "GND" H 19180 1452 50  0000 C CNN
+F 2 "" H 19175 1625 50  0001 C CNN
+F 3 "" H 19175 1625 50  0001 C CNN
+	1    19175 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19625 1575 19625 1625
+Wire Wire Line
+	19625 1625 19475 1625
+Wire Wire Line
+	19625 1675 19625 1625
+Connection ~ 19625 1625
+$Comp
+L star_wars_arcade_main_pcb:LS244B B_1
+U 1 1 67E08601
+P 21700 2425
+F 0 "B_1" H 21700 2000 50  0000 C CNN
+F 1 "LS244B" H 21700 2075 50  0000 C CNN
+F 2 "" H 21700 2425 50  0001 C CNN
+F 3 "" H 21700 2425 50  0001 C CNN
+	1    21700 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L star_wars_arcade_main_pcb:LS244C C_1
+U 1 1 67E0AF96
+P 23075 4300
+F 0 "C_1" H 23075 4475 50  0000 C CNN
+F 1 "LS244C" H 23075 4575 50  0000 C CNN
+F 2 "" H 23075 4300 50  0001 C CNN
+F 3 "" H 23075 4300 50  0001 C CNN
+	1    23075 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 67E0F48C
+P 23075 3550
+F 0 "#PWR?" H 23075 3400 50  0001 C CNN
+F 1 "+5V" H 23175 3550 50  0000 C CNN
+F 2 "" H 23075 3550 50  0001 C CNN
+F 3 "" H 23075 3550 50  0001 C CNN
+	1    23075 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 67E10FA5
+P 21700 2275
+F 0 "#PWR?" H 21700 2125 50  0001 C CNN
+F 1 "+5V" H 21715 2448 50  0000 C CNN
+F 2 "" H 21700 2275 50  0001 C CNN
+F 3 "" H 21700 2275 50  0001 C CNN
+	1    21700 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 67EFBB81
+P 21475 3775
+F 0 "#PWR?" H 21475 3525 50  0001 C CNN
+F 1 "GND" H 21350 3775 50  0000 C CNN
+F 2 "" H 21475 3775 50  0001 C CNN
+F 3 "" H 21475 3775 50  0001 C CNN
+	1    21475 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 3775 21475 3775
+Connection ~ 21475 3775
+$Comp
+L power:GND #PWR?
+U 1 1 67FE5C67
+P 23375 5050
+F 0 "#PWR?" H 23375 4800 50  0001 C CNN
+F 1 "GND" H 23380 4877 50  0000 C CNN
+F 2 "" H 23375 5050 50  0001 C CNN
+F 3 "" H 23375 5050 50  0001 C CNN
+	1    23375 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 67FE780C
+P 22850 5050
+F 0 "#PWR?" H 22850 4800 50  0001 C CNN
+F 1 "GND" H 22855 4877 50  0000 C CNN
+F 2 "" H 22850 5050 50  0001 C CNN
+F 3 "" H 22850 5050 50  0001 C CNN
+	1    22850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23025 5050 22850 5050
+Connection ~ 22850 5050
+Wire Wire Line
+	21000 2925 20825 2925
+Wire Wire Line
+	21000 3025 20725 3025
+Wire Wire Line
+	21000 3125 20625 3125
+Wire Wire Line
+	21000 3225 20525 3225
+Wire Wire Line
+	21000 3325 20425 3325
+Text GLabel 20825 3375 3    50   Input ~ 0
+A12
+Text GLabel 20725 3375 3    50   Input ~ 0
+A11
+Text GLabel 20625 3375 3    50   Input ~ 0
+A10
+Text GLabel 20525 3375 3    50   Input ~ 0
+A9
+Text GLabel 20425 3375 3    50   Input ~ 0
+A8
+Wire Wire Line
+	20825 3375 20825 2925
+Connection ~ 20825 2925
+Wire Wire Line
+	20825 2925 20275 2925
+Wire Wire Line
+	20725 3375 20725 3025
+Connection ~ 20725 3025
+Wire Wire Line
+	20725 3025 20275 3025
+Wire Wire Line
+	20625 3375 20625 3125
+Connection ~ 20625 3125
+Wire Wire Line
+	20625 3125 20275 3125
+Wire Wire Line
+	20525 3375 20525 3225
+Connection ~ 20525 3225
+Wire Wire Line
+	20525 3225 20275 3225
+Wire Wire Line
+	20425 3375 20425 3325
+Connection ~ 20425 3325
+Wire Wire Line
+	20425 3325 20275 3325
+Text GLabel 21000 2625 0    50   Input ~ 0
+6MHZ
+Text GLabel 21000 2725 0    50   Input ~ 0
+3MHZ
+Text GLabel 21000 2825 0    50   Input ~ 0
+1.5MHZ
+$Comp
+L power:GND #PWR?
+U 1 1 67EF9DC0
+P 22000 3775
+F 0 "#PWR?" H 22000 3525 50  0001 C CNN
+F 1 "GND" H 22150 3775 50  0000 C CNN
+F 2 "" H 22000 3775 50  0001 C CNN
+F 3 "" H 22000 3775 50  0001 C CNN
+	1    22000 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22375 3900 20650 3900
+Wire Wire Line
+	20425 3900 20425 3825
+Wire Wire Line
+	20425 3825 20275 3825
+Wire Wire Line
+	20275 3925 20425 3925
+Wire Wire Line
+	20425 3925 20425 4000
+Wire Wire Line
+	20425 4000 20750 4000
+Wire Wire Line
+	20275 4025 20425 4025
+Wire Wire Line
+	20425 4025 20425 4100
+Wire Wire Line
+	20425 4100 20850 4100
+Wire Wire Line
+	20275 4125 20425 4125
+Wire Wire Line
+	20425 4125 20425 4200
+Wire Wire Line
+	20425 4200 20950 4200
+Wire Wire Line
+	20275 4225 20425 4225
+Wire Wire Line
+	20425 4225 20425 4300
+Wire Wire Line
+	20425 4300 20950 4300
+Wire Wire Line
+	20275 4325 20425 4325
+Wire Wire Line
+	20425 4325 20425 4400
+Wire Wire Line
+	20425 4400 20850 4400
+Wire Wire Line
+	20275 4425 20425 4425
+Wire Wire Line
+	20425 4425 20425 4500
+Wire Wire Line
+	20425 4500 20750 4500
+Wire Wire Line
+	20275 4525 20425 4525
+Wire Wire Line
+	20425 4525 20425 4600
+Wire Wire Line
+	20425 4600 20650 4600
+Text GLabel 20650 3850 1    50   Input ~ 0
+A7
+Text GLabel 20750 3850 1    50   Input ~ 0
+A6
+Text GLabel 20850 3850 1    50   Input ~ 0
+A5
+Text GLabel 20950 3850 1    50   Input ~ 0
+A4
+Wire Wire Line
+	20650 3850 20650 3900
+Connection ~ 20650 3900
+Wire Wire Line
+	20650 3900 20425 3900
+Wire Wire Line
+	20750 3850 20750 4000
+Connection ~ 20750 4000
+Wire Wire Line
+	20750 4000 22375 4000
+Wire Wire Line
+	20850 3850 20850 4100
+Connection ~ 20850 4100
+Text GLabel 20950 4675 3    50   Input ~ 0
+A3
+Text GLabel 20850 4675 3    50   Input ~ 0
+A2
+Text GLabel 20750 4675 3    50   Input ~ 0
+A1
+Text GLabel 20650 4675 3    50   Input ~ 0
+A0
+Wire Wire Line
+	20850 4100 22375 4100
+Wire Wire Line
+	20950 3850 20950 4200
+Connection ~ 20950 4200
+Wire Wire Line
+	20950 4200 22375 4200
+Wire Wire Line
+	20950 4675 20950 4300
+Connection ~ 20950 4300
+Wire Wire Line
+	20950 4300 22375 4300
+Wire Wire Line
+	20850 4675 20850 4400
+Connection ~ 20850 4400
+Wire Wire Line
+	20850 4400 22375 4400
+Wire Wire Line
+	20750 4675 20750 4500
+Connection ~ 20750 4500
+Wire Wire Line
+	20750 4500 22375 4500
+Wire Wire Line
+	20650 4675 20650 4600
+Connection ~ 20650 4600
+Wire Wire Line
+	20650 4600 22375 4600
+Text GLabel 22400 2625 2    50   Input ~ 0
+E6MHZ
+Text GLabel 22400 2725 2    50   Input ~ 0
+E3MHZ
+Text GLabel 22400 2825 2    50   Input ~ 0
+E1.5MHZ
+Text GLabel 22400 2925 2    50   Input ~ 0
+AB12
+Text GLabel 22400 3025 2    50   Input ~ 0
+AB11
+Text GLabel 22400 3125 2    50   Input ~ 0
+AB10
+Text GLabel 22400 3225 2    50   Input ~ 0
+AB9
+Text GLabel 22400 3325 2    50   Input ~ 0
+AB8
+$Comp
+L Asteroids:LS08 K_2
+U 3 1 68EC5F51
+P 21750 1800
+F 0 "K_2" H 21750 1850 50  0000 C CNN
+F 1 "LS08" H 21750 1775 50  0000 C CNN
+F 2 "" H 21750 1800 50  0001 C CNN
+F 3 "" H 21750 1800 50  0001 C CNN
+	3    21750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 1700 20775 1700
+Wire Wire Line
+	20775 1700 20775 2275
+Wire Wire Line
+	20775 2275 20575 2275
+Text GLabel 20275 2075 2    50   Input ~ 0
+A15
+Text GLabel 20275 2175 2    50   Input ~ 0
+A14
+Text GLabel 20475 2350 0    50   Input ~ 0
+A13
+Wire Wire Line
+	20475 2350 20575 2350
+Wire Wire Line
+	20575 2350 20575 2275
+Connection ~ 20575 2275
+Wire Wire Line
+	20575 2275 20275 2275
+Text GLabel 21150 1900 0    50   Input ~ 0
+P94
+Text GLabel 22350 1800 2    50   Input ~ 0
+AB13
+Text GLabel 23775 3900 2    50   Input ~ 0
+AB7
+Text GLabel 23775 4000 2    50   Input ~ 0
+AB6
+Text GLabel 23775 4100 2    50   Input ~ 0
+AB5
+Text GLabel 23775 4200 2    50   Input ~ 0
+AB4
+Text GLabel 23775 4300 2    50   Input ~ 0
+AB3
+Text GLabel 23775 4400 2    50   Input ~ 0
+AB2
+Text GLabel 23775 4500 2    50   Input ~ 0
+AB1
+Text GLabel 23775 4600 2    50   Input ~ 0
+AB0
+$Comp
+L star_wars_arcade_main_pcb:LS245A E_4
+U 1 1 69088212
+P 21800 5725
+F 0 "E_4" H 21800 6000 50  0000 C CNN
+F 1 "LS245A" H 21800 5900 50  0000 C CNN
+F 2 "" H 21800 5725 50  0001 C CNN
+F 3 "" H 21800 5725 50  0001 C CNN
+	1    21800 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69089B6B
+P 21925 6475
+F 0 "#PWR?" H 21925 6225 50  0001 C CNN
+F 1 "GND" H 21930 6302 50  0000 C CNN
+F 2 "" H 21925 6475 50  0001 C CNN
+F 3 "" H 21925 6475 50  0001 C CNN
+	1    21925 6475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6908B7F6
+P 21800 4975
+F 0 "#PWR?" H 21800 4825 50  0001 C CNN
+F 1 "+5V" H 21815 5148 50  0000 C CNN
+F 2 "" H 21800 4975 50  0001 C CNN
+F 3 "" H 21800 4975 50  0001 C CNN
+	1    21800 4975
+	1    0    0    -1  
+$EndComp
+Text GLabel 20300 5300 1    50   Input ~ 0
+D7
+Text GLabel 20400 5300 1    50   Input ~ 0
+D6
+Text GLabel 20500 5300 1    50   Input ~ 0
+D5
+Text GLabel 20600 5300 1    50   Input ~ 0
+D4
+Text GLabel 20700 5300 1    50   Input ~ 0
+D3
+Text GLabel 20800 5300 1    50   Input ~ 0
+D2
+Text GLabel 20900 5300 1    50   Input ~ 0
+D1
+Text GLabel 21000 5300 1    50   Input ~ 0
+D0
+Wire Wire Line
+	20300 5300 20300 5375
+Wire Wire Line
+	20275 5375 20300 5375
+Connection ~ 20300 5375
+Wire Wire Line
+	20400 5300 20400 5475
+Connection ~ 20400 5475
+Wire Wire Line
+	20400 5475 20275 5475
+Wire Wire Line
+	20500 5300 20500 5575
+Connection ~ 20500 5575
+Wire Wire Line
+	20500 5575 20275 5575
+Wire Wire Line
+	20600 5300 20600 5675
+Connection ~ 20600 5675
+Wire Wire Line
+	20600 5675 20275 5675
+Wire Wire Line
+	20700 5300 20700 5775
+Connection ~ 20700 5775
+Wire Wire Line
+	20700 5775 20275 5775
+Wire Wire Line
+	20800 5300 20800 5875
+Connection ~ 20800 5875
+Wire Wire Line
+	20800 5875 20275 5875
+Wire Wire Line
+	20900 5300 20900 5975
+Connection ~ 20900 5975
+Wire Wire Line
+	20900 5975 20275 5975
+Wire Wire Line
+	20300 5375 21100 5375
+Wire Wire Line
+	20400 5475 21100 5475
+Wire Wire Line
+	20500 5575 21100 5575
+Wire Wire Line
+	20600 5675 21100 5675
+Wire Wire Line
+	20700 5775 21100 5775
+Wire Wire Line
+	20800 5875 21100 5875
+Wire Wire Line
+	20900 5975 21100 5975
+Wire Wire Line
+	20275 6075 21000 6075
+Wire Wire Line
+	21000 5300 21000 6075
+Connection ~ 21000 6075
+Wire Wire Line
+	21000 6075 21100 6075
+Text GLabel 21675 6475 0    50   Input ~ 0
+RWB
+$Comp
+L Asteroids:LS08 K_6
+U 2 2 69FB78F6
+P 21200 6750
+F 0 "K_6" H 21175 6800 50  0000 C CNN
+F 1 "LS08" H 21175 6725 50  0000 C CNN
+F 2 "" H 21200 6750 50  0001 C CNN
+F 3 "" H 21200 6750 50  0001 C CNN
+	2    21200 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21800 6475 21800 6750
+Text GLabel 20600 6375 0    50   Input ~ 0
+~MBRAM
+Wire Wire Line
+	20600 6650 20600 6375
+Text GLabel 20525 6525 0    50   Input ~ 0
+~MBCON
+Wire Wire Line
+	20600 6850 20525 6850
+Wire Wire Line
+	20525 6850 20525 6525
+Wire Wire Line
+	20275 6775 20275 7425
+Wire Wire Line
+	20275 7425 20500 7425
+$Comp
+L Star_Wars_Vector_PCB:TP TPRW
+U 1 1 6A2115A9
+P 20575 7225
+F 0 "TPRW" H 20475 7475 60  0000 L CNN
+F 1 "TP" H 20500 7275 60  0001 C CNN
+F 2 "" H 20500 7175 60  0001 C CNN
+F 3 "" H 20500 7175 60  0001 C CNN
+	1    20575 7225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20650 7425 20850 7425
+Wire Wire Line
+	20650 7425 20500 7425
+Connection ~ 20650 7425
+Connection ~ 20500 7425
+Text GLabel 20850 7350 1    50   Input ~ 0
+R~W
+Wire Wire Line
+	20850 7425 20850 7350
+$Comp
+L Asteroids:LS04 P_3
+U 4 1 6A33EC41
+P 21600 7425
+F 0 "P_3" H 21725 7525 50  0000 C CNN
+F 1 "LS04" H 21725 7325 50  0000 C CNN
+F 2 "" H 21600 7425 50  0001 C CNN
+F 3 "" H 21600 7425 50  0001 C CNN
+	4    21600 7425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 7425 20850 7425
+Connection ~ 20850 7425
+$Comp
+L Asteroids:LS04 N_1
+U 2 1 6A3D8A7C
+P 22850 7425
+F 0 "N_1" H 22950 7525 50  0000 C CNN
+F 1 "S04" H 22925 7325 50  0000 C CNN
+F 2 "" H 22850 7425 50  0001 C CNN
+F 3 "" H 22850 7425 50  0001 C CNN
+	2    22850 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Asteroids:LS00 D_8
+U 2 1 6A3DA3C5
+P 23000 7875
+F 0 "D_8" H 23000 7900 50  0000 C CNN
+F 1 "LS00" H 23000 7825 50  0000 C CNN
+F 2 "" H 23000 7875 50  0001 C CNN
+F 3 "" H 23000 7875 50  0001 C CNN
+	2    23000 7875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22400 7425 22250 7425
+Wire Wire Line
+	22400 7775 22250 7775
+Wire Wire Line
+	22250 7775 22250 7425
+Connection ~ 22250 7425
+Wire Wire Line
+	22250 7425 22050 7425
+Text GLabel 22400 7975 0    50   Input ~ 0
+1.5MHZ
+Text GLabel 22250 7350 1    50   Input ~ 0
+~R~WB
+Wire Wire Line
+	22250 7350 22250 7425
+Text GLabel 23700 7425 2    50   Input ~ 0
+R~W~B
+$Comp
+L Star_Wars_Vector_PCB:TP TPRWB
+U 1 1 6A644AD9
+P 23525 7225
+F 0 "TPRWB" H 23400 7475 60  0000 L CNN
+F 1 "TP" H 23450 7275 60  0001 C CNN
+F 2 "" H 23450 7175 60  0001 C CNN
+F 3 "" H 23450 7175 60  0001 C CNN
+	1    23525 7225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23450 7425 23300 7425
+Connection ~ 23450 7425
+Wire Wire Line
+	23450 7425 23600 7425
+Wire Wire Line
+	23700 7425 23600 7425
+Connection ~ 23600 7425
+Text GLabel 23700 7875 2    50   Input ~ 0
+~WE
+Wire Wire Line
+	23700 7875 23600 7875
+Text GLabel 22500 5375 2    50   Input ~ 0
+DB7
+Text GLabel 22500 5475 2    50   Input ~ 0
+DB6
+Text GLabel 22500 5575 2    50   Input ~ 0
+DB5
+Text GLabel 22500 5675 2    50   Input ~ 0
+DB4
+Text GLabel 22500 5775 2    50   Input ~ 0
+DB3
+Text GLabel 22500 5875 2    50   Input ~ 0
+DB2
+Text GLabel 22500 5975 2    50   Input ~ 0
+DB1
+Text GLabel 22500 6075 2    50   Input ~ 0
+DB0
+$Comp
+L star_wars_arcade_main_pcb:LS245A D/E0
+U 1 1 6A955615
+P 24800 2150
+F 0 "D/E0" H 24800 2425 50  0000 C CNN
+F 1 "LS245A" H 24800 2325 50  0000 C CNN
+F 2 "" H 24800 2150 50  0001 C CNN
+F 3 "" H 24800 2150 50  0001 C CNN
+	1    24800 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 24100 1800 0    50   Input ~ 0
+D7
+Text GLabel 24100 1900 0    50   Input ~ 0
+D6
+Text GLabel 24100 2000 0    50   Input ~ 0
+D5
+Text GLabel 24100 2100 0    50   Input ~ 0
+D4
+Text GLabel 24100 2200 0    50   Input ~ 0
+D3
+Text GLabel 24100 2300 0    50   Input ~ 0
+D2
+Text GLabel 24100 2400 0    50   Input ~ 0
+D1
+Text GLabel 24100 2500 0    50   Input ~ 0
+D0
+$Comp
+L power:+5V #PWR?
+U 1 1 6A967827
+P 24800 1400
+F 0 "#PWR?" H 24800 1250 50  0001 C CNN
+F 1 "+5V" H 24815 1573 50  0000 C CNN
+F 2 "" H 24800 1400 50  0001 C CNN
+F 3 "" H 24800 1400 50  0001 C CNN
+	1    24800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6A969978
+P 24925 2900
+F 0 "#PWR?" H 24925 2650 50  0001 C CNN
+F 1 "GND" H 24930 2727 50  0000 C CNN
+F 2 "" H 24925 2900 50  0001 C CNN
+F 3 "" H 24925 2900 50  0001 C CNN
+	1    24925 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 25500 1800 2    50   Input ~ 0
+PD7
+Text GLabel 25500 1900 2    50   Input ~ 0
+PD6
+Text GLabel 25500 2000 2    50   Input ~ 0
+PD5
+Text GLabel 25500 2100 2    50   Input ~ 0
+PD4
+Text GLabel 25500 2200 2    50   Input ~ 0
+PD3
+Text GLabel 25500 2300 2    50   Input ~ 0
+PD2
+Text GLabel 25500 2400 2    50   Input ~ 0
+PD1
+Text GLabel 25500 2500 2    50   Input ~ 0
+PD0
+Text GLabel 24675 2900 0    50   Input ~ 0
+R~W~B
+$Comp
+L Asteroids:LS08 K_6
+U 3 2 6ACFF79D
+P 23825 3100
+F 0 "K_6" H 23825 3125 50  0000 C CNN
+F 1 "LS08" H 23825 3050 50  0000 C CNN
+F 2 "" H 23825 3100 50  0001 C CNN
+F 3 "" H 23825 3100 50  0001 C CNN
+	3    23825 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24800 2900 24800 3100
+Wire Wire Line
+	24800 3100 24425 3100
+Text GLabel 23225 3000 0    50   Input ~ 0
+~EVMEM
+Text GLabel 23225 3200 0    50   Input ~ 0
+~SOUND
+Text Notes 19425 1250 0    200  ~ 0
+MICROPROCESSOR
+Wire Notes Line
+	16625 700  16625 8800
+Wire Notes Line
+	16625 8800 25825 8800
+Wire Notes Line
+	25825 8800 25825 700 
+Wire Notes Line
+	25825 700  16625 700 
 $EndSCHEMATC
