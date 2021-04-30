@@ -7281,4 +7281,521 @@ Wire Notes Line
 	17200 900  25175 900 
 Wire Notes Line
 	17200 8900 25175 8900
+$Comp
+L star_wars_arcade_main_pcb:137211 F/H_2
+U 1 1 78B2AB75
+P 33575 4575
+F 0 "F/H_2" H 33575 4600 50  0000 C CNN
+F 1 "137211" H 33575 4525 50  0000 C CNN
+F 2 "" H 33575 4575 50  0001 C CNN
+F 3 "" H 33575 4575 50  0001 C CNN
+	1    33575 4575
+	1    0    0    -1  
+$EndComp
+Text GLabel 33575 5475 3    50   Input ~ 0
+~R~WB
+$Comp
+L power:GND #PWR?
+U 1 1 78B2FACC
+P 33775 5275
+F 0 "#PWR?" H 33775 5025 50  0001 C CNN
+F 1 "GND" H 33780 5102 50  0000 C CNN
+F 2 "" H 33775 5275 50  0001 C CNN
+F 3 "" H 33775 5275 50  0001 C CNN
+	1    33775 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 78B32509
+P 33575 3875
+F 0 "#PWR?" H 33575 3725 50  0001 C CNN
+F 1 "+5V" H 33590 4048 50  0000 C CNN
+F 2 "" H 33575 3875 50  0001 C CNN
+F 3 "" H 33575 3875 50  0001 C CNN
+	1    33575 3875
+	1    0    0    -1  
+$EndComp
+Text GLabel 33375 5475 3    50   Input ~ 0
+~RAM
+Text GLabel 32975 4025 0    50   Input ~ 0
+AB10
+Text GLabel 32975 4125 0    50   Input ~ 0
+AB9
+Text GLabel 32975 4225 0    50   Input ~ 0
+AB8
+Text GLabel 32975 4325 0    50   Input ~ 0
+AB7
+Text GLabel 32975 4425 0    50   Input ~ 0
+AB6
+Text GLabel 32975 4525 0    50   Input ~ 0
+AB5
+Text GLabel 32975 4625 0    50   Input ~ 0
+AB4
+Text GLabel 32975 4725 0    50   Input ~ 0
+AB3
+Text GLabel 32975 4825 0    50   Input ~ 0
+AB2
+Text GLabel 32975 4925 0    50   Input ~ 0
+AB1
+Text GLabel 32975 5025 0    50   Input ~ 0
+AB0
+Text GLabel 32975 5125 0    50   Input ~ 0
+~WE
+Text GLabel 34175 4225 2    50   Input ~ 0
+D7
+Text GLabel 34175 4325 2    50   Input ~ 0
+D6
+Text GLabel 34175 4425 2    50   Input ~ 0
+D5
+Text GLabel 34175 4525 2    50   Input ~ 0
+D4
+Text GLabel 34175 4625 2    50   Input ~ 0
+D3
+Text GLabel 34175 4725 2    50   Input ~ 0
+D2
+Text GLabel 34175 4825 2    50   Input ~ 0
+D1
+Text GLabel 34175 4925 2    50   Input ~ 0
+D0
+Text Notes 33275 3625 0    200  ~ 0
+RAM
+Wire Notes Line
+	32700 5875 34525 5875
+Wire Notes Line
+	34525 5875 34525 3250
+Wire Notes Line
+	34525 3250 32700 3250
+Wire Notes Line
+	32700 3250 32700 5875
+$Comp
+L star_wars_arcade_main_pcb:x2212 E_1
+U 1 1 79E1A4B8
+P 34900 2225
+F 0 "E_1" H 34900 2250 50  0000 C CNN
+F 1 "x2212" H 34925 2175 50  0000 C CNN
+F 2 "" H 34900 2225 50  0001 C CNN
+F 3 "" H 34900 2225 50  0001 C CNN
+	1    34900 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 79E1D3E0
+P 34900 2775
+F 0 "#PWR?" H 34900 2525 50  0001 C CNN
+F 1 "GND" H 34905 2602 50  0000 C CNN
+F 2 "" H 34900 2775 50  0001 C CNN
+F 3 "" H 34900 2775 50  0001 C CNN
+	1    34900 2775
+	1    0    0    -1  
+$EndComp
+Text GLabel 35350 2375 2    50   Input ~ 0
+D3
+Text GLabel 35350 2475 2    50   Input ~ 0
+D2
+Text GLabel 35350 2575 2    50   Input ~ 0
+D1
+Text GLabel 35350 2675 2    50   Input ~ 0
+D0
+Text GLabel 35350 2075 2    50   Input ~ 0
+~WE
+Text GLabel 35525 2175 2    50   Input ~ 0
+~NOVRAM
+Wire Wire Line
+	35525 2175 35350 2175
+Text GLabel 34275 1875 0    50   Input ~ 0
+~NSTORE
+Text GLabel 34450 1975 0    50   Input ~ 0
+AB7
+Wire Wire Line
+	34450 1875 34275 1875
+Text GLabel 34450 2075 0    50   Input ~ 0
+AB6
+Text GLabel 34450 2175 0    50   Input ~ 0
+AB5
+Text GLabel 34450 2275 0    50   Input ~ 0
+AB4
+Text GLabel 34450 2375 0    50   Input ~ 0
+AB3
+Text GLabel 34450 2475 0    50   Input ~ 0
+AB2
+Text GLabel 34450 2575 0    50   Input ~ 0
+AB1
+Text GLabel 34450 2675 0    50   Input ~ 0
+AB0
+$Comp
+L Device:C C95
+U 1 1 7A9B478F
+P 35225 1425
+F 0 "C95" V 35100 1425 50  0000 C CNN
+F 1 ".1uf" V 35350 1425 50  0000 C CNN
+F 2 "" H 35263 1275 50  0001 C CNN
+F 3 "~" H 35225 1425 50  0001 C CNN
+	1    35225 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	35075 1425 34900 1425
+Wire Wire Line
+	34900 1425 34900 1675
+$Comp
+L power:GND #PWR?
+U 1 1 7AAC6394
+P 35475 1475
+F 0 "#PWR?" H 35475 1225 50  0001 C CNN
+F 1 "GND" H 35480 1302 50  0000 C CNN
+F 2 "" H 35475 1475 50  0001 C CNN
+F 3 "" H 35475 1475 50  0001 C CNN
+	1    35475 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	35375 1425 35475 1425
+Wire Wire Line
+	35475 1425 35475 1475
+Text GLabel 34900 1325 0    50   Input ~ 0
++5EAROM
+Wire Wire Line
+	34900 1325 34900 1425
+Connection ~ 34900 1425
+$Comp
+L Device:R_US R100
+U 1 1 7ACEC3EC
+P 33350 1625
+F 0 "R100" H 33418 1671 50  0000 L CNN
+F 1 "22k" H 33418 1580 50  0000 L CNN
+F 2 "" V 33390 1615 50  0001 C CNN
+F 3 "~" H 33350 1625 50  0001 C CNN
+	1    33350 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R59
+U 1 1 7ACEED88
+P 33675 1775
+F 0 "R59" V 33600 1775 50  0000 C CNN
+F 1 "10k" V 33750 1775 50  0000 C CNN
+F 2 "" V 33715 1765 50  0001 C CNN
+F 3 "~" H 33675 1775 50  0001 C CNN
+	1    33675 1775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	34450 1775 33875 1775
+Wire Wire Line
+	33525 1775 33350 1775
+Wire Wire Line
+	34900 1425 33350 1425
+Wire Wire Line
+	33350 1425 33350 1475
+$Comp
+L Device:D CR3
+U 1 1 7B027332
+P 32975 1625
+F 0 "CR3" V 32929 1704 50  0000 L CNN
+F 1 "1N914" V 33020 1704 50  0000 L CNN
+F 2 "" H 32975 1625 50  0001 C CNN
+F 3 "~" H 32975 1625 50  0001 C CNN
+	1    32975 1625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	33350 1775 32975 1775
+Connection ~ 33350 1775
+Wire Wire Line
+	32975 1475 32975 1425
+Wire Wire Line
+	32975 1425 33350 1425
+Connection ~ 33350 1425
+$Comp
+L Device:CP1 C94
+U 1 1 7B2532E9
+P 32975 2000
+F 0 "C94" H 33090 2046 50  0000 L CNN
+F 1 "4.7uf" H 33090 1955 50  0000 L CNN
+F 2 "" H 32975 2000 50  0001 C CNN
+F 3 "~" H 32975 2000 50  0001 C CNN
+	1    32975 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	32975 1850 32975 1775
+Connection ~ 32975 1775
+$Comp
+L power:GND #PWR?
+U 1 1 7B369CDA
+P 32975 2150
+F 0 "#PWR?" H 32975 1900 50  0001 C CNN
+F 1 "GND" H 32980 1977 50  0000 C CNN
+F 2 "" H 32975 2150 50  0001 C CNN
+F 3 "" H 32975 2150 50  0001 C CNN
+	1    32975 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:74LS07 L_10
+U 1 1 7B36D8A5
+P 33525 2475
+F 0 "L_10" H 33725 2575 50  0000 C CNN
+F 1 "7407" H 33700 2400 50  0000 C CNN
+F 2 "" H 33525 2475 50  0001 C CNN
+F 3 "" H 33525 2475 50  0001 C CNN
+	1    33525 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7B372456
+P 33525 2550
+F 0 "#PWR?" H 33525 2300 50  0001 C CNN
+F 1 "GND" H 33530 2377 50  0000 C CNN
+F 2 "" H 33525 2550 50  0001 C CNN
+F 3 "" H 33525 2550 50  0001 C CNN
+	1    33525 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 7B374E50
+P 33525 2400
+F 0 "#PWR?" H 33525 2250 50  0001 C CNN
+F 1 "+5V" H 33540 2573 50  0000 C CNN
+F 2 "" H 33525 2400 50  0001 C CNN
+F 3 "" H 33525 2400 50  0001 C CNN
+	1    33525 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	33975 2475 33975 2100
+Wire Wire Line
+	33975 2100 33875 2100
+Wire Wire Line
+	33875 2100 33875 1775
+Connection ~ 33875 1775
+Wire Wire Line
+	33875 1775 33825 1775
+Text GLabel 33075 2475 0    50   Input ~ 0
+~RECALL
+Text Notes 32875 1200 0    200  ~ 0
+NON_VOLATILE RAM
+Wire Notes Line
+	32700 900  32700 3050
+Wire Notes Line
+	32700 3050 35950 3050
+Wire Notes Line
+	35950 3050 35950 900 
+Wire Notes Line
+	35950 900  32700 900 
+$Comp
+L star_wars_arcade_main_pcb:LS138 L_8
+U 1 1 7BD55CDE
+P 3600 11925
+F 0 "L_8" H 3575 12100 50  0000 C CNN
+F 1 "LS138" H 3575 12175 50  0000 C CNN
+F 2 "" H 3600 11925 50  0001 C CNN
+F 3 "" H 3600 11925 50  0001 C CNN
+	1    3600 11925
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4100 11375
+NoConn ~ 4100 11475
+NoConn ~ 4100 11575
+$Comp
+L power:+5V #PWR?
+U 1 1 7C094AB5
+P 3600 11275
+F 0 "#PWR?" H 3600 11125 50  0001 C CNN
+F 1 "+5V" H 3615 11448 50  0000 C CNN
+F 2 "" H 3600 11275 50  0001 C CNN
+F 3 "" H 3600 11275 50  0001 C CNN
+	1    3600 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7C09753E
+P 3600 12175
+F 0 "#PWR?" H 3600 11925 50  0001 C CNN
+F 1 "GND" H 3605 12002 50  0000 C CNN
+F 2 "" H 3600 12175 50  0001 C CNN
+F 3 "" H 3600 12175 50  0001 C CNN
+	1    3600 12175
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 11875 0    50   Input ~ 0
+AB7
+Text GLabel 3100 11975 0    50   Input ~ 0
+AB6
+Text GLabel 3100 12075 0    50   Input ~ 0
+AB5
+Text GLabel 2950 11375 0    50   Input ~ 0
+~SW
+Wire Wire Line
+	2950 11375 3025 11375
+Wire Wire Line
+	3100 11475 3025 11475
+Wire Wire Line
+	3025 11475 3025 11375
+Connection ~ 3025 11375
+Wire Wire Line
+	3025 11375 3100 11375
+Text GLabel 2950 11575 0    50   Input ~ 0
+P94
+Wire Wire Line
+	3100 11575 2950 11575
+Text GLabel 4100 11675 2    50   Input ~ 0
+~ADC
+Text GLabel 4350 11775 2    50   Input ~ 0
+~OPT1
+Text GLabel 4100 11875 2    50   Input ~ 0
+~OPT0
+Wire Wire Line
+	4350 11775 4100 11775
+Text GLabel 4350 11975 2    50   Input ~ 0
+~IN1
+Text GLabel 4100 12075 2    50   Input ~ 0
+~IN0
+Wire Wire Line
+	4350 11975 4100 11975
+$Comp
+L star_wars_arcade_main_pcb:LS138 M_8
+U 1 1 7C748A1A
+P 3600 13325
+F 0 "M_8" H 3600 13500 50  0000 C CNN
+F 1 "LS138" H 3600 13575 50  0000 C CNN
+F 2 "" H 3600 13325 50  0001 C CNN
+F 3 "" H 3600 13325 50  0001 C CNN
+	1    3600 13325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7C74ADD9
+P 3600 13575
+F 0 "#PWR?" H 3600 13325 50  0001 C CNN
+F 1 "GND" H 3605 13402 50  0000 C CNN
+F 2 "" H 3600 13575 50  0001 C CNN
+F 3 "" H 3600 13575 50  0001 C CNN
+	1    3600 13575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 7C74D7F8
+P 3600 12675
+F 0 "#PWR?" H 3600 12525 50  0001 C CNN
+F 1 "+5V" H 3615 12848 50  0000 C CNN
+F 2 "" H 3600 12675 50  0001 C CNN
+F 3 "" H 3600 12675 50  0001 C CNN
+	1    3600 12675
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 12775 0    50   Input ~ 0
+~WE
+Text GLabel 2900 12875 0    50   Input ~ 0
+~OUTS
+Text GLabel 3100 12975 0    50   Input ~ 0
+P94
+Wire Wire Line
+	3100 12875 2900 12875
+Text GLabel 3100 13275 0    50   Input ~ 0
+AB7
+Text GLabel 3100 13375 0    50   Input ~ 0
+AB6
+Text GLabel 3100 13475 0    50   Input ~ 0
+AB5
+Text GLabel 4100 13475 2    50   Input ~ 0
+~EVGGO
+$Comp
+L Asteroids:LS08 K_2
+U 2 2 7C880D74
+P 5100 13475
+F 0 "K_2" H 5100 13450 50  0000 C CNN
+F 1 "LS08" H 5100 13525 50  0000 C CNN
+F 2 "" H 5100 13475 50  0001 C CNN
+F 3 "" H 5100 13475 50  0001 C CNN
+	2    5100 13475
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4500 13375 4100 13375
+Text GLabel 4400 13650 0    50   Input ~ 0
+~RESET
+Wire Wire Line
+	4400 13650 4500 13650
+Wire Wire Line
+	4500 13650 4500 13575
+Text GLabel 5700 13475 2    50   Input ~ 0
+~EVGRST
+Text GLabel 4100 13275 2    50   Input ~ 0
+~WDCLR
+Text GLabel 4425 13175 2    50   Input ~ 0
+~IRQCLR
+Wire Wire Line
+	4425 13175 4100 13175
+Text GLabel 4100 13075 2    50   Input ~ 0
+~OLATCH
+Text GLabel 4100 12875 2    50   Input ~ 0
+~ADCSTART
+$Comp
+L Asteroids:LS08 K_6
+U 4 1 7CD20952
+P 5650 13075
+F 0 "K_6" H 5650 13125 50  0000 C CNN
+F 1 "LS08" H 5650 13050 50  0000 C CNN
+F 2 "" H 5650 13075 50  0001 C CNN
+F 3 "" H 5650 13075 50  0001 C CNN
+	4    5650 13075
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 13175 0    50   Input ~ 0
+~PCLR
+Text GLabel 6250 13075 2    50   Input ~ 0
+~NSTORE
+Wire Wire Line
+	5050 12975 4100 12975
+$Comp
+L Asteroids:LS08 K_6
+U 1 1 7D089A4A
+P 5000 12575
+F 0 "K_6" H 4925 12625 50  0000 L CNN
+F 1 "LS08" H 4925 12550 50  0000 L CNN
+F 2 "" H 5000 12575 50  0001 C CNN
+F 3 "" H 5000 12575 50  0001 C CNN
+	1    5000 12575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 7D08F9D1
+P 4850 12375
+F 0 "#PWR?" H 4850 12225 50  0001 C CNN
+F 1 "+5V" H 4975 12450 50  0000 C CNN
+F 2 "" H 4850 12375 50  0001 C CNN
+F 3 "" H 4850 12375 50  0001 C CNN
+	1    4850 12375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7D092487
+P 4850 12775
+F 0 "#PWR?" H 4850 12525 50  0001 C CNN
+F 1 "GND" H 5000 12700 50  0000 C CNN
+F 2 "" H 4850 12775 50  0001 C CNN
+F 3 "" H 4850 12775 50  0001 C CNN
+	1    4850 12775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 12775 4325 12775
+Wire Wire Line
+	4325 12775 4325 12675
+Wire Wire Line
+	4325 12675 4400 12675
+Text GLabel 4400 12475 0    50   Input ~ 0
+~RESET
+Text GLabel 5600 12575 2    50   Input ~ 0
+~SOUNDRST
 $EndSCHEMATC
