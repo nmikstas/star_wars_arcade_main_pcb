@@ -2842,11 +2842,6 @@ Wire Wire Line
 	13450 5775 13450 4450
 Wire Wire Line
 	13450 4450 13300 4450
-Text GLabel 13600 4450 2    50   Input ~ 0
-46KHZ
-Wire Wire Line
-	13600 4450 13450 4450
-Connection ~ 13450 4450
 Wire Wire Line
 	13300 4950 13375 4950
 Wire Wire Line
@@ -3679,8 +3674,6 @@ Text GLabel 35725 17450 0    50   Input ~ 0
 3MHZ*
 Wire Wire Line
 	35725 17450 36125 17450
-Text GLabel 37425 18725 0    50   Input ~ 0
-P
 Text GLabel 37225 18825 0    50   Input ~ 0
 ~REN
 Wire Wire Line
@@ -11346,7 +11339,7 @@ BIC7
 Text GLabel 25150 26175 0    50   Input ~ 0
 BIC6
 Text GLabel 25150 26425 0    50   Input ~ 0
-BIC7
+BIC5
 $Comp
 L power:GND #PWR0381
 U 1 1 8307A865
@@ -15259,4 +15252,9 @@ F 3 "~" H 5350 6875 50  0001 C CNN
 	1    5350 6875
 	1    0    0    -1  
 $EndComp
+Text Notes 35975 18775 0    50   ~ 0
+No Connection on PCB
+NoConn ~ 37425 18725
+Wire Notes Line
+	36875 18725 37400 18725
 $EndSCHEMATC
