@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Asteroids)(type KiCad)(uri ${KIPRJMOD}/Asteroids.pretty)(options "")(descr ""))
   (lib (name Star_Wars_Vector_PCB)(type KiCad)(uri ${KIPRJMOD}/Star_Wars_Vector_PCB.pretty)(options "")(descr ""))
+  (lib (name Star_Wars_Main_PCB)(type KiCad)(uri ${KIPRJMOD}/Star_Wars_Main_PCB.pretty)(options "")(descr ""))
 )
