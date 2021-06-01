@@ -1,5 +1,5 @@
-(module DIP18 (layer F.Cu) (tedit 5D302134)
-  (fp_text reference REF** (at 0 0 90) (layer F.SilkS)
+(module DIP18 (layer F.Cu) (tedit 60B573A7)
+  (fp_text reference REF** (at 0 0 90 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value DIP18 (at -1.27 0 90) (layer F.Fab) hide

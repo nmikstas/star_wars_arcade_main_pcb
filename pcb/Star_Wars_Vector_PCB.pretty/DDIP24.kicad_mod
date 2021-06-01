@@ -1,5 +1,5 @@
-(module DDIP24 (layer F.Cu) (tedit 5D30208C)
-  (fp_text reference REF** (at 0 0 90) (layer F.SilkS)
+(module DDIP24 (layer F.Cu) (tedit 60B573B4)
+  (fp_text reference REF** (at 0 0 90 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value DDIP24 (at -1.27 0 90) (layer F.Fab) hide
