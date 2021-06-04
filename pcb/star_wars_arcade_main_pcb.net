@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\work\star_wars_arcade_main_pcb\pcb\star_wars_arcade_main_pcb.sch)
-    (date "6/2/2021 9:33:55 PM")
+    (date "6/3/2021 8:40:13 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -337,6 +337,7 @@
       (tstamp 60F983E9))
     (comp (ref C81)
       (value .1uf)
+      (footprint Star_Wars_Vector_PCB:GenericComp)
       (datasheet ~)
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /sheet1/) (tstamps /6160EE1C/))
@@ -425,6 +426,7 @@
       (tstamp 6112F22E))
     (comp (ref C93)
       (value "10uf 25V")
+      (footprint Star_Wars_Main_PCB:Cap1)
       (datasheet ~)
       (libsource (lib Device) (part CP1) (description "Polarized capacitor, US symbol"))
       (sheetpath (names /sheet1/) (tstamps /6160EE1C/))
@@ -1042,6 +1044,7 @@
       (tstamp 7B027332))
     (comp (ref C94)
       (value 4.7uf)
+      (footprint Star_Wars_Main_PCB:Cap1)
       (datasheet ~)
       (libsource (lib Device) (part CP1) (description "Polarized capacitor, US symbol"))
       (sheetpath (names /sheet1/) (tstamps /6160EE1C/))
