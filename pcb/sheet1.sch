@@ -648,9 +648,9 @@ F 3 "" H 43850 27850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 43850 26150 0    50   Input ~ 0
-S1
+S1_
 Text GLabel 43525 26450 0    50   Input ~ 0
-S2
+S2_
 Text GLabel 43850 26250 0    50   Input ~ 0
 LED1
 Text GLabel 43850 27350 0    50   Input ~ 0
@@ -1073,9 +1073,9 @@ F 3 "" H 42175 30725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 42175 30825 0    50   Input ~ 0
-S1
+S1_
 Text GLabel 42175 30925 0    50   Input ~ 0
-S2
+S2_
 $Comp
 L Device:CP1 C50
 U 1 1 60C068C6
@@ -11677,10 +11677,6 @@ F 3 "" H 27725 30700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	28450 29675 28450 30050
-Wire Wire Line
-	28450 30050 27275 30050
-Wire Wire Line
-	27275 30050 27275 30400
 Text GLabel 28500 30050 2    50   Input ~ 0
 S1
 Wire Wire Line
@@ -11692,7 +11688,7 @@ Text GLabel 27250 29575 0    50   Input ~ 0
 ~ENA
 Text GLabel 27250 29775 0    50   Input ~ 0
 ~ENB
-Text GLabel 27275 30600 0    50   Input ~ 0
+Text GLabel 27275 30400 0    50   Input ~ 0
 IP7
 Text Notes 25300 24975 0    200  ~ 0
 MATRIX PROCESSOR\nADDRESS SELECTOR
@@ -14423,11 +14419,7 @@ Wire Wire Line
 Wire Wire Line
 	14350 19500 14350 17875
 Wire Wire Line
-	14350 17875 12575 17875
-Wire Wire Line
-	12575 17875 12575 16525
-Wire Wire Line
-	12575 16525 12725 16525
+	14350 17875 13225 17875
 Text GLabel 13925 17400 2    50   Input ~ 0
 BIC7
 Text GLabel 13925 17500 2    50   Input ~ 0
@@ -14452,12 +14444,8 @@ Wire Wire Line
 	13925 17700 13325 17700
 Wire Wire Line
 	13325 17700 13325 17275
-Text GLabel 13000 17500 0    50   Input ~ 0
-~INCBIC
 Wire Wire Line
-	13225 17500 13225 17275
-Wire Wire Line
-	13000 17500 13225 17500
+	13225 17875 13225 17275
 Wire Wire Line
 	12475 15800 12475 18750
 Wire Wire Line
@@ -15387,4 +15375,13 @@ Wire Wire Line
 Connection ~ 38050 7725
 Wire Wire Line
 	38050 7725 37950 7725
+Wire Wire Line
+	12725 16525 12725 16625
+Connection ~ 12725 16625
+Wire Wire Line
+	27275 30600 27050 30600
+Wire Wire Line
+	27050 30600 27050 30050
+Wire Wire Line
+	27050 30050 28450 30050
 $EndSCHEMATC
