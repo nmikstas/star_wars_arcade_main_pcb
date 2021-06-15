@@ -11677,10 +11677,6 @@ F 3 "" H 27725 30700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	28450 29675 28450 30050
-Wire Wire Line
-	28450 30050 27275 30050
-Wire Wire Line
-	27275 30050 27275 30400
 Text GLabel 28500 30050 2    50   Input ~ 0
 S1
 Wire Wire Line
@@ -11692,7 +11688,7 @@ Text GLabel 27250 29575 0    50   Input ~ 0
 ~ENA
 Text GLabel 27250 29775 0    50   Input ~ 0
 ~ENB
-Text GLabel 27275 30600 0    50   Input ~ 0
+Text GLabel 27275 30400 0    50   Input ~ 0
 IP7
 Text Notes 25300 24975 0    200  ~ 0
 MATRIX PROCESSOR\nADDRESS SELECTOR
@@ -13976,9 +13972,9 @@ F 3 "" H 5375 15975 50  0001 C CNN
 $EndComp
 NoConn ~ 5200 16825
 NoConn ~ 5500 16825
-Text GLabel 5050 17175 0    50   Input ~ 0
-1.5GCLK
 Text GLabel 5050 17350 0    50   Input ~ 0
+1.5GCLK
+Text GLabel 5050 17175 0    50   Input ~ 0
 3GCLK
 Wire Wire Line
 	5050 17175 5300 17175
@@ -15382,4 +15378,10 @@ Wire Wire Line
 Wire Wire Line
 	12725 16525 12725 16625
 Connection ~ 12725 16625
+Wire Wire Line
+	27275 30600 27050 30600
+Wire Wire Line
+	27050 30600 27050 30050
+Wire Wire Line
+	27050 30050 28450 30050
 $EndSCHEMATC

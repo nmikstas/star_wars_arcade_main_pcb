@@ -10895,21 +10895,21 @@ Text GLabel 20000 13000 2    50   Input ~ 0
 D1
 Text GLabel 20000 13100 2    50   Input ~ 0
 D0
-Text GLabel 25625 10050 2    50   Input ~ 0
-D7
-Text GLabel 25625 10150 2    50   Input ~ 0
-D6
-Text GLabel 25625 10250 2    50   Input ~ 0
-D5
-Text GLabel 25625 10350 2    50   Input ~ 0
-D4
-Text GLabel 25625 10450 2    50   Input ~ 0
-D3
-Text GLabel 25625 10550 2    50   Input ~ 0
-D2
-Text GLabel 25625 10650 2    50   Input ~ 0
-D1
 Text GLabel 25625 10750 2    50   Input ~ 0
+D7
+Text GLabel 25625 10650 2    50   Input ~ 0
+D6
+Text GLabel 25625 10550 2    50   Input ~ 0
+D5
+Text GLabel 25625 10450 2    50   Input ~ 0
+D4
+Text GLabel 25625 10350 2    50   Input ~ 0
+D3
+Text GLabel 25625 10250 2    50   Input ~ 0
+D2
+Text GLabel 25625 10150 2    50   Input ~ 0
+D1
+Text GLabel 25625 10050 2    50   Input ~ 0
 D0
 NoConn ~ 25625 11150
 $Comp
@@ -13972,9 +13972,9 @@ F 3 "" H 5375 15975 50  0001 C CNN
 $EndComp
 NoConn ~ 5200 16825
 NoConn ~ 5500 16825
-Text GLabel 5050 17175 0    50   Input ~ 0
-1.5GCLK
 Text GLabel 5050 17350 0    50   Input ~ 0
+1.5GCLK
+Text GLabel 5050 17175 0    50   Input ~ 0
 3GCLK
 Wire Wire Line
 	5050 17175 5300 17175
