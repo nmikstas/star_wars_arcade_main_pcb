@@ -15007,7 +15007,7 @@ F 3 "" H 22625 19650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	23225 19650 23550 19650
-Text GLabel 22025 19550 0    50   Input ~ 0
+Text GLabel 22025 19750 0    50   Input ~ 0
 3MHZ
 $Comp
 L power:+5V #PWR0500
@@ -15031,7 +15031,7 @@ F 3 "" H 22475 19850 50  0001 C CNN
 	1    22475 19850
 	1    0    0    -1  
 $EndComp
-Text GLabel 22025 19750 0    50   Input ~ 0
+Text GLabel 22025 19550 0    50   Input ~ 0
 ~R~WB
 $Comp
 L Asteroids:LS08 E_6

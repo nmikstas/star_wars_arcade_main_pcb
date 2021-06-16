@@ -10895,21 +10895,21 @@ Text GLabel 20000 13000 2    50   Input ~ 0
 D1
 Text GLabel 20000 13100 2    50   Input ~ 0
 D0
-Text GLabel 25625 10050 2    50   Input ~ 0
-D7
-Text GLabel 25625 10150 2    50   Input ~ 0
-D6
-Text GLabel 25625 10250 2    50   Input ~ 0
-D5
-Text GLabel 25625 10350 2    50   Input ~ 0
-D4
-Text GLabel 25625 10450 2    50   Input ~ 0
-D3
-Text GLabel 25625 10550 2    50   Input ~ 0
-D2
-Text GLabel 25625 10650 2    50   Input ~ 0
-D1
 Text GLabel 25625 10750 2    50   Input ~ 0
+D7
+Text GLabel 25625 10650 2    50   Input ~ 0
+D6
+Text GLabel 25625 10550 2    50   Input ~ 0
+D5
+Text GLabel 25625 10450 2    50   Input ~ 0
+D4
+Text GLabel 25625 10350 2    50   Input ~ 0
+D3
+Text GLabel 25625 10250 2    50   Input ~ 0
+D2
+Text GLabel 25625 10150 2    50   Input ~ 0
+D1
+Text GLabel 25625 10050 2    50   Input ~ 0
 D0
 NoConn ~ 25625 11150
 $Comp
