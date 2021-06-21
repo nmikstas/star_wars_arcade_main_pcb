@@ -3791,14 +3791,10 @@ Text GLabel 41425 16300 2    50   Input ~ 0
 DD8
 Text GLabel 41425 16400 2    50   Input ~ 0
 DD10
-Text GLabel 41425 16500 2    50   Input ~ 0
-DD13
 Text GLabel 41425 16600 2    50   Input ~ 0
 DD12
 Text GLabel 41425 16700 2    50   Input ~ 0
 DD11
-Text GLabel 41425 16800 2    50   Input ~ 0
-DD9
 Text GLabel 41425 16900 2    50   Input ~ 0
 DD14
 Text GLabel 41425 17000 2    50   Input ~ 0
@@ -10873,22 +10869,6 @@ F 3 "" H 24500 9700 50  0001 C CNN
 	1    24500 9700
 	1    0    0    -1  
 $EndComp
-Text GLabel 20000 12400 2    50   Input ~ 0
-D7
-Text GLabel 20000 12500 2    50   Input ~ 0
-D6
-Text GLabel 20000 12600 2    50   Input ~ 0
-D5
-Text GLabel 20000 12700 2    50   Input ~ 0
-D4
-Text GLabel 20000 12800 2    50   Input ~ 0
-D3
-Text GLabel 20000 12900 2    50   Input ~ 0
-D2
-Text GLabel 20000 13000 2    50   Input ~ 0
-D1
-Text GLabel 20000 13100 2    50   Input ~ 0
-D0
 Text GLabel 25625 10750 2    50   Input ~ 0
 D7
 Text GLabel 25625 10650 2    50   Input ~ 0
@@ -15379,27 +15359,45 @@ Wire Wire Line
 Wire Wire Line
 	27050 30050 28450 30050
 Wire Wire Line
-	28575 15025 28100 15025
+	28575 16350 28325 16350
 Wire Wire Line
-	28100 15025 28100 16350
+	28325 16350 28325 16500
 Wire Wire Line
-	28100 16350 28050 16350
+	28075 16500 28075 16550
+Wire Wire Line
+	28325 16500 28075 16500
+Wire Wire Line
+	28075 16550 28050 16550
+Wire Wire Line
+	28175 16550 28175 15025
 Wire Wire Line
 	28575 16550 28175 16550
 Wire Wire Line
-	28175 16550 28175 15175
+	28175 15025 28050 15025
 Wire Wire Line
-	28175 15175 28050 15175
+	28225 15025 28225 16350
 Wire Wire Line
-	28050 15175 28050 15025
+	28575 15025 28225 15025
 Wire Wire Line
-	28575 16350 28325 16350
-Wire Wire Line
-	28325 16350 28325 16625
-Wire Wire Line
-	28325 16625 28100 16625
-Wire Wire Line
-	28100 16625 28100 16550
-Wire Wire Line
-	28100 16550 28050 16550
+	28225 16350 28050 16350
+Text GLabel 20000 12400 2    50   Input ~ 0
+DB7
+Text GLabel 20000 12500 2    50   Input ~ 0
+DB6
+Text GLabel 20000 12600 2    50   Input ~ 0
+DB5
+Text GLabel 20000 12700 2    50   Input ~ 0
+DB4
+Text GLabel 20000 12800 2    50   Input ~ 0
+DB3
+Text GLabel 20000 12900 2    50   Input ~ 0
+DB2
+Text GLabel 20000 13000 2    50   Input ~ 0
+DB1
+Text GLabel 20000 13100 2    50   Input ~ 0
+DB0
+Text GLabel 41825 16775 2    50   Input ~ 0
+DD9
+Text GLabel 41775 17275 2    50   Input ~ 0
+DD13
 $EndSCHEMATC
