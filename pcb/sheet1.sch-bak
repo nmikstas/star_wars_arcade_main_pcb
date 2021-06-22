@@ -2651,7 +2651,7 @@ F 3 "" H 12250 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11550 3125 10200 3125
+	11550 3125 10475 3125
 Connection ~ 10200 3125
 Wire Wire Line
 	11150 2800 11050 2800
@@ -11462,7 +11462,6 @@ Text GLabel 27425 26150 0    50   Input ~ 0
 BIC1
 Text GLabel 27425 26350 0    50   Input ~ 0
 IP3
-NoConn ~ 27425 26250
 $Comp
 L star_wars_arcade_main_pcb:LS153A J_3
 U 1 1 84523C7A
@@ -11526,7 +11525,6 @@ Text GLabel 28325 27625 2    50   Input ~ 0
 MA4
 Text GLabel 28325 28175 2    50   Input ~ 0
 MA2
-NoConn ~ 27425 28225
 Text GLabel 27425 27625 0    50   Input ~ 0
 AB5
 Text GLabel 27425 27725 0    50   Input ~ 0
@@ -15396,8 +15394,41 @@ Text GLabel 20000 13000 2    50   Input ~ 0
 DB1
 Text GLabel 20000 13100 2    50   Input ~ 0
 DB0
-Text GLabel 41825 16775 2    50   Input ~ 0
+Text GLabel 41425 16800 2    50   Input ~ 0
 DD9
-Text GLabel 41775 17275 2    50   Input ~ 0
+Text GLabel 41425 16500 2    50   Input ~ 0
 DD13
+Text GLabel 27425 28225 0    50   Input ~ 0
+P96
+Text GLabel 27425 26250 0    50   Input ~ 0
+P96
+$Comp
+L Device:R_US R1000
+U 1 1 68921EF4
+P 10475 3350
+F 0 "R1000" H 10543 3396 50  0000 L CNN
+F 1 "180" H 10543 3305 50  0000 L CNN
+F 2 "" V 10515 3340 50  0001 C CNN
+F 3 "~" H 10475 3350 50  0001 C CNN
+	1    10475 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 68922CD9
+P 10475 3575
+F 0 "#PWR?" H 10475 3325 50  0001 C CNN
+F 1 "GND" H 10480 3402 50  0000 C CNN
+F 2 "" H 10475 3575 50  0001 C CNN
+F 3 "" H 10475 3575 50  0001 C CNN
+	1    10475 3575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10475 3200 10475 3125
+Connection ~ 10475 3125
+Wire Wire Line
+	10475 3125 10200 3125
+Wire Wire Line
+	10475 3500 10475 3575
 $EndSCHEMATC
