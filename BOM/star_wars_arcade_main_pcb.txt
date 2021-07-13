@@ -62,7 +62,7 @@ J16                                                     1       Aud_Conn        
 
 L1                                                      1       100uH           Digikey 78F101J-TR-RCCT-ND
 
-Q3, Q4                                                  2       2N6044          Digikey 2368-2N6387-ND
+Q3, Q4                                                  2       2N6044          Digikey 2N6667GOS-ND
 Q1                                                      1       2N3904          Digikey 2N3904FS-ND
 
 R4,  R9,  R10, R13, R14, R16, R17, R22, R23, R24        27      1k              Digikey 1.0KQBK-ND
@@ -87,6 +87,8 @@ R1000                                                   1       180             
 
 VR1                                                     1       L7805           Digikey MC7805ABTGOS-ND
 Y1                                                      1       12.096MHz       Digikey X429-ND
+
+Plastic tabs                                			3       Tabs            Digikey RPC1553-ND
 
 TP+5V1,       TP+5V2,   TP+5V3,        TP+5V4,          35      Test Point      N/A
 TP+10.3UN1,   TP+12V1,  TP-5V1,        TPCATSTR1,
