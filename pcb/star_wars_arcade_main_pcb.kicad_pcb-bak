@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 118)
+    (drawings 122)
     (tracks 10589)
     (zones 0)
     (modules 323)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.381)
     (user_trace_width 0.762)
     (user_trace_width 1.524)
@@ -11003,6 +11003,10 @@
       (net 2 GND))
   )
 
+  (gr_line (start 54.61 480.695) (end 52.07 480.695) (layer F.SilkS) (width 0.254))
+  (gr_line (start 53.34 480.695) (end 53.34 496.189) (layer F.SilkS) (width 0.254))
+  (gr_line (start 39.751 478.79) (end 43.815 478.79) (layer F.SilkS) (width 0.254))
+  (gr_line (start 66.675 491.49) (end 66.675 487.68) (layer F.SilkS) (width 0.254))
   (gr_text "Designed By Nick Mikstas" (at 313.69 518.16 90) (layer F.SilkS)
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
@@ -11228,8 +11232,6 @@
   (gr_line (start 247.015 537.21) (end 227.33 537.21) (angle 90) (layer Edge.Cuts) (width 0.0254) (tstamp 60AF1B95))
   (gr_arc (start 113.03 538.48) (end 113.03 537.21) (angle 90) (layer Edge.Cuts) (width 0.0254) (tstamp 60AF1B92))
 
-  (via (at 110.49 398.78) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 9))
-  (via (at 212.725 356.87) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 64))
   (via (at 189.23 346.71) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 1))
   (via (at 108.585 346.71) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 1))
   (via (at 108.585 233.045) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 1))
@@ -13084,6 +13086,7 @@
   (segment (start 283.845 511.81) (end 283.845 502.285) (width 0.381) (layer B.Cu) (net 8))
   (segment (start 285.75 521.97) (end 285.115 521.335) (width 0.381) (layer B.Cu) (net 8))
   (segment (start 283.845 502.285) (end 281.305 502.285) (width 0.381) (layer B.Cu) (net 8))
+  (via (at 110.49 398.78) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 9))
   (segment (start 198.12 541.02) (end 198.12 534.035) (width 0.381) (layer F.Cu) (net 9))
   (segment (start 198.12 534.035) (end 198.12 534.035) (width 0.381) (layer F.Cu) (net 9) (tstamp 60B5566E))
   (via (at 198.12 534.035) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 9))
@@ -15084,6 +15087,7 @@
   (segment (start 278.13 452.755) (end 278.13 447.675) (width 0.381) (layer B.Cu) (net 63))
   (segment (start 278.13 447.675) (end 280.67 447.675) (width 0.381) (layer B.Cu) (net 63))
   (segment (start 280.67 447.675) (end 280.67 444.5) (width 0.381) (layer B.Cu) (net 63))
+  (via (at 212.725 356.87) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 64))
   (via (at 202.565 512.445) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 64))
   (segment (start 270.51 429.26) (end 270.51 425.45) (width 0.381) (layer B.Cu) (net 64))
   (segment (start 270.51 425.45) (end 270.51 425.45) (width 0.381) (layer B.Cu) (net 64) (tstamp 60B715F5))

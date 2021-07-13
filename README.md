@@ -1,3 +1,7 @@
 # star_wars_arcade_main_pcb
-Reproduction of the Star Wars Arcade main PCB
-The PCB is complete. Assembly and testing are the next phases.
+The source files for the reproduction of the 1983 Star Sars Arcade main PCB. The PCB is designed with Kicad. This project has not yet been tested.
+
+# Folder Structure
+* BOM - Bill of materials for the main PCB
+* Gerbers -The gerber files for the main PCB
+* pcb - The Kicad design files for the main PCB

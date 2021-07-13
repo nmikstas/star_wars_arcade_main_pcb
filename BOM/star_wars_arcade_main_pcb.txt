@@ -1,0 +1,108 @@
+Part_ID                                                 QTY     DESC            Part_Num
+
+B_1, E_9, F_9, C_1, E/F_2, J_4, K_4, J_9, H_9           9       LS244           Jameco 47183
+A_9, B_9, C_5, D_5, J_5, K_5                            6       LS164           Jameco 46851
+D_3, E_3, F_3, H_6, J_6, R_8                            6       LS191           Jameco 47001
+B/C_0, L_2, L_8, M_8, N_7                               5       LS138           Jameco 46607
+A_8, H_8, M_2, P_7, R_6                                 5       LS74            Jameco 48004
+D_4, D_6, D_7, M_7, N_3                                 5       LS299           Jameco 47440
+C_8, E_5, E_6, K_2, K_6                                 5       LS08            Jameco 46375
+C_9, C_10, D_9, N_2, R_3                                5       LS161           Jameco 46818
+D_8, E_7, F_7, M_3, N_8                                 5       LS00            Jameco 46252
+A_6, A_7, B_6, B_7                                      4       LS165           Jameco 46877
+D/E_0, E_4, F_4, H_4                                    4       LS245           Jameco 47212
+L_4, L_5, M_4, M_5                                      4       LS374           Jameco 47634
+L_6, P_4, P_5, P_6                                      4       LS175           Jameco 46957
+M_6, N_4, N_5, N_6                                      4       LS83            Jameco 48063
+F_6, J_3, K_3                                           3       LS153           Jameco 46720
+C_6, C_7                                                2       LS384           Ebay or Aliexpress, equivalent part AM25LS14
+P_2, R_2                                                2       LS393           Jameco 47731
+K_8, P_3                                                2       LS04            Jameco 46316
+H_3, L_3                                                2       LS157           Jameco 46771
+B_5                                                     1       LS86            Jameco 48098
+B_8                                                     1       LS385           Ebay or Aliexpress, equivalent part AM25LS15
+J_2                                                     1       LS139           Jameco 46623
+L/M_9                                                   1       LS259           Jameco 47327
+L_10                                                    1       7407            Jameco 49120
+P_8                                                     1       LS109           Jameco 46421
+R_5                                                     1       LS155           Jameco 46754
+R_10                                                    1       LS14            Jameco 46640
+E_8                                                     1       S02             Jameco 48266
+F_8                                                     1       S10             Jameco 676975
+N_1                                                     1       S04             Jameco 676967
+N_11                                                    1       TL082           Jameco 33241
+C_2                                                     1       68B09E          Jameco 320590
+F_1                                                     1       27128           Jameco 39950
+H/J_1, J/K_1, K/L_1, M_1                                4       2764            Jameco 40192
+F/H_2, F_5, H_5                                         3       137211          Jameco 2297055
+K_9                                                     1       ADC0809CCN      Ebay or Aliexpress
+H_7, J_7, K_7, L_7                                      4       Mathbox ROM     Alan-1 Mathbox ROM
+E_1                                                     1       X2212           Alan-1 NVRAM
+L_11                                                    1       SW_DIP_x04      Jameco 2082231
+D_10, E/F_10                                            2       SW_DIP_x08      Jameco 2307639
+
+C1,  C4,  C5,  C7,  C8,  C9,  C10, C11, C12, C13,       68      .1uf            Digikey 399-4454-1-ND
+C14, C15, C16, C17, C18, C19, C20, C21, C22, C23,
+C24, C45, C46, C47, C48, C52, C53, C54, C55, C56,
+C57, C58, C59, C60, C61, C62, C63, C64, C65, C66,
+C67, C68, C69, C70, C71, C72, C73, C74, C75, C76,
+C77, C78, C79, C80, C81, C82, C83, C84, C85, C86,
+C87, C88, C89, C90, C91, C92, C95, C96
+
+C49, C50, C51                                           3       100uf 35V       Digikey 1572-1309-ND
+C2                                                      1       100pf           Digikey 1249PH-ND
+C3                                                      1       39pf            Digikey P9633-ND
+C93                                                     1       10uf 25V        Digikey 1572-1294-ND
+C94                                                     1       4.7uf           Digikey 1572-1733-ND
+
+CR2, CR4, CR5, CR6                                      4       BLUE LED        Digikey VAOL-5701SBY4-ND
+CR1, CR3                                                2       1N914           Digikey 1N914FS-ND
+
+J16                                                     1       Aud_Conn        Digikey A19892-ND
+
+L1                                                      1       100uH           Digikey 78F101J-TR-RCCT-ND
+
+Q3, Q4                                                  2       2N6044          Digikey 2368-2N6387-ND
+Q1                                                      1       2N3904          Digikey 2N3904FS-ND
+
+R4,  R9,  R10, R13, R14, R16, R17, R22, R23, R24        27      1k              Digikey 1.0KQBK-ND
+R25, R34, R35, R36, R37, R38, R39, R40, R41, R58
+R91, R92, R93, R94, R95, R96, R97
+
+R1,  R2,  R5,  R11, R12, R15, R42, R43, R44, R45,       23      10k             Digikey 10KQBK-ND
+R46, R47, R48, R49, R50, R51, R52, R53, R54, R55,
+R56, R57, R59
+
+R18, R19, R20, R21, R26, R27, R28, R29, R30, R31,       12      470             Digikey 470QBK-ND
+R32, R33
+
+R82, R83, R84, R85, R86                                 5       4.7k            Digikey 4.7KQBK-ND
+R79, R80, R81                                           3       100             Digikey 100QBK-ND
+R3                                                      1       68              Digikey 68QBK-ND
+R6                                                      1       100k            Digikey 100KXBK-ND
+R7                                                      1       220             Digikey 220QBK-ND
+R8                                                      1       15k             Digikey 15KQBK-ND
+R100                                                    1       22k             Digikey 22KQBK-ND
+R1000                                                   1       180             Digikey 180QBK-ND
+
+VR1                                                     1       L7805           Digikey MC7805ABTGOS-ND
+Y1                                                      1       12.096MHz       Digikey X429-ND
+
+TP+5V1,       TP+5V2,   TP+5V3,        TP+5V4,          35      Test Point      N/A
+TP+10.3UN1,   TP+12V1,  TP-5V1,        TPCATSTR1,
+TPCOIN_AUX1,  TPCOINL1, TPCOINR1,      TPDIAGN1,
+TPE1,         TPEVMEM1, TPFIRE/START1, TPGND1,
+TPGND2,       TPGND3,   TPGND4,        TPHALT1,
+TPMPAGE1,     TPQ1,     TPRESET1,      TPROM0,
+TPROM1,       TPROM2,   TPROM3,        TPROM4,
+TPRST1,       TPRST2,   TPRW1,         TPRWB1,
+TPSELF_TEST1, TPSLAM1,  TPWDDIS1
+
+8-pin socket                                            1                       Digikey 1175-1475-ND
+14-pin socket                                           30                      Digikey 2057-ICS-314-T-ND
+16-pin socket                                           40                      Digikey 2057-ICS-316-T-ND
+18 pin socket                                           1                       Digikey 2057-ICS-318-T-ND
+20-pin socket                                           23                      Digikey 2057-ICS-320-T-ND
+24-pin socket                                           3                       Digikey 2057-ICS-624-T-ND
+28-pin socket                                           6                       Digikey 2057-ICS-628-T-ND
+40-pin socket                                           1                       Digikey 2057-ICS-640-T-ND
