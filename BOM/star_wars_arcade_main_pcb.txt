@@ -101,8 +101,8 @@ TPRST1,       TPRST2,   TPRW1,         TPRWB1,
 TPSELF_TEST1, TPSLAM1,  TPWDDIS1
 
 8-pin socket                                            1                       Digikey 1175-1475-ND
-14-pin socket                                           30                      Digikey 2057-ICS-314-T-ND
-16-pin socket                                           40                      Digikey 2057-ICS-316-T-ND
+14-pin socket                                           31                      Digikey 2057-ICS-314-T-ND
+16-pin socket                                           39                      Digikey 2057-ICS-316-T-ND
 18 pin socket                                           1                       Digikey 2057-ICS-318-T-ND
 20-pin socket                                           23                      Digikey 2057-ICS-320-T-ND
 24-pin socket                                           3                       Digikey 2057-ICS-624-T-ND
