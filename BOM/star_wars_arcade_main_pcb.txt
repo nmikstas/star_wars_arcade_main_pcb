@@ -48,7 +48,6 @@ C57, C58, C59, C60, C61, C62, C63, C64, C65, C66,
 C67, C68, C69, C70, C71, C72, C73, C74, C75, C76,
 C77, C78, C79, C80, C81, C82, C83, C84, C85, C86,
 C87, C88, C89, C90, C91, C92, C95, C96
-
 C49, C50, C51                                           3       100uf 35V       Digikey 1572-1309-ND
 C2                                                      1       100pf           Digikey 1249PH-ND
 C3                                                      1       39pf            Digikey P9633-ND
@@ -68,14 +67,11 @@ Q1                                                      1       2N3904          
 R4,  R9,  R10, R13, R14, R16, R17, R22, R23, R24        27      1k              Digikey 1.0KQBK-ND
 R25, R34, R35, R36, R37, R38, R39, R40, R41, R58
 R91, R92, R93, R94, R95, R96, R97
-
 R1,  R2,  R5,  R11, R12, R15, R42, R43, R44, R45,       23      10k             Digikey 10KQBK-ND
 R46, R47, R48, R49, R50, R51, R52, R53, R54, R55,
 R56, R57, R59
-
 R18, R19, R20, R21, R26, R27, R28, R29, R30, R31,       12      470             Digikey 470QBK-ND
 R32, R33
-
 R82, R83, R84, R85, R86                                 5       4.7k            Digikey 4.7KQBK-ND
 R79, R80, R81                                           3       100             Digikey 100QBK-ND
 R3                                                      1       68              Digikey 68QBK-ND
@@ -86,11 +82,12 @@ R100                                                    1       22k             
 R1000                                                   1       180             Digikey 180QBK-ND
 
 VR1                                                     1       L7805           Digikey MC7805ABTGOS-ND
+
 Y1                                                      1       12.096MHz       Digikey X429-ND
 
 Plastic tabs                                			3       Tabs            Digikey RPC1553-ND
 
-TP+5V1,       TP+5V2,   TP+5V3,        TP+5V4,          35      Test Point      N/A
+TP+5V1,       TP+5V2,   TP+5V3,        TP+5V4,          35      Test Point      Digikey WM6456-ND
 TP+10.3UN1,   TP+12V1,  TP-5V1,        TPCATSTR1,
 TPCOIN_AUX1,  TPCOINL1, TPCOINR1,      TPDIAGN1,
 TPE1,         TPEVMEM1, TPFIRE/START1, TPGND1,
